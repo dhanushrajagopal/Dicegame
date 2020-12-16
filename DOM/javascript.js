@@ -9,12 +9,12 @@ var randomImages1="./images/dice"+randomNumber2+".png";
 var image2=document.querySelector(".img2");
 image2.setAttribute("src",randomImages1);
 if(randomNumber1>randomNumber2){
-    document.getElementsByTagName("h2").innerHTML="Player 1 Wins";
+    document.querySelector("h2").innerHTML="Player 1 Wins";
 }
 else if(randomNumber2==randomNumber1){
-    document.getElementsByTagName("h2").innerHTML="Draw";
+    document.querySelector("h2").innerHTML="Draw";
 }
 else{
-    document.getElementsByTagName("h2").innerHTML="Player 2 Wins";
+    document.querySelector("h2").innerHTML="Player 2 Wins";
 }
 
