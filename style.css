@@ -1,5 +1,6 @@
 .container {
-    width: 70%;
+    width: 100%;
+    
     margin: auto;
     text-align: center;
   }
@@ -18,14 +19,24 @@
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 8rem;
+    font-size: 800%;
     color: #4ECCA3;
+    margin-top: 10vh;
+  }
+  h2 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 800%;
+    color: #4ECCA3;
+    margin-top: 2vh;
   }
   
   p {
-    font-size: 2rem;
+    font-size: 500%;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
+    padding-right: 30px;
   }
   
   img {
@@ -33,18 +44,22 @@
   }
   
   footer {
+    font-size: 300%;
     margin-top: 5%;
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+    margin-top: 20vh;
   
   }
   button{
-     
+      
       margin-left: auto;
       padding:0 40px;
       border:1px solid;
-      font-size: 2rem;
+      font-size: 400%;
       background-color:#4ECCA3 ;
       font-family: 'Indie Flower', cursive;
+      margin-bottom: 100px;;
+
   }
