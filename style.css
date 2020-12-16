@@ -27,7 +27,7 @@
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 600%;
+    font-size: 800%;
     color: #4ECCA3;
     margin-top: 2vh;
   }
@@ -63,3 +63,38 @@
       margin-bottom: 100px;;
 
   }
+
+  .container-fluid{
+    display: flex;
+    text-align: center;
+   
+  }
+
+ 
+  .result1,.result2{
+
+    display: inline-block;
+    flex: 1;
+    
+
+    
+    
+  }
+  
+  .player01{
+    
+    
+    text-align: left;
+    padding:0;
+    margin:0;
+    
+  }
+  .player02{
+   
+    text-align: right;
+    padding:0;
+    margin:0;
+  }
+  
+  
+ 
